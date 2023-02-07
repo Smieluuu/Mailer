@@ -1,0 +1,25 @@
+.sidebar {
+  height: 100%;
+  width: 100px;
+  background: #1c92d2;
+  background: linear-gradient(180deg, #1c92d2 0%, #f2fcfe 100%);
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+  .sidebar__icon {
+    font-size: 40px;
+  }
+
+  .sidebar__icon:hover {
+    cursor: pointer;
+  }
+
+  .sidebar__elem {
+    padding-top: 25px;
+  }
+  .sidebar h4 {
+    padding-bottom: 25px;
+  }
+}

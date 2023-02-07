@@ -1,0 +1,26 @@
+.mail-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+
+  .mail-list {
+    width: 75%;
+
+    .mail-item {
+      display: flex;
+      width: 100%;
+      border: 2px solid #1c92d2;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .mail-item p {
+      flex: 1;
+    }
+
+    .trash {
+      cursor: pointer;
+    }
+  }
+}
