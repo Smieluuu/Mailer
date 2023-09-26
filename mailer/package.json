@@ -20,6 +20,6 @@
     "validate-polish": "^2.0.40"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.22"
   }
 }
